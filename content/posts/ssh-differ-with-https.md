@@ -3,7 +3,7 @@ title: "ssh-diier-with https"
 date: 2025-11-28
 tags: ["ssh","https", "网络协议"]
 categories: ["今日所学","计算机基础"]
-draft: true
+draft: false
 ---
 
 ### 1. 安全性
