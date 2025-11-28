@@ -1,0 +1,52 @@
+# hugo.yaml
+baseURL: "https://22d-caoyd.github.io/"
+languageCode: "zh-CN"
+title: "我的学习博客"
+theme: "PaperMod"
+
+# 启用 emoji
+enableEmoji: true
+
+# 文章参数
+params:
+  # 首页模式
+  homeInfoParams:
+    Title: "👋 欢迎来到我的博客"
+    Content: "记录每日学习，持续成长"
+  
+  # 社交图标（可选）
+  socialIcons:
+    - name: github
+      url: "https://github.com/22d-caoyd"
+  
+  # 显示阅读时间
+  ShowReadingTime: true
+  # 显示分享按钮
+  ShowShareButtons: true
+  # 显示目录
+  ShowToc: true
+  # 目录默认展开
+  TocOpen: true
+
+# 菜单
+menu:
+  main:
+    - name: 归档
+      url: /archives/
+      weight: 10
+    - name: 标签
+      url: /tags/
+      weight: 20
+    - name: 分类
+      url: /categories/
+      weight: 30
+    - name: 搜索
+      url: /search/
+      weight: 40
+
+# 输出格式（用于搜索功能）
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
