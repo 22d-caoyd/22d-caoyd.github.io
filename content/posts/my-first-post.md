@@ -1,6 +1,6 @@
 ---
 title: "如何建立自己的个人博客"
-date: 2024-01-15
+date: 2025-11-28
 draft: false
 tags: ["技术教程"]
 categories: ["今日所学"]
@@ -8,7 +8,7 @@ summary: "使用静态网站生成器 Hugo 搭建一个快速、简洁、高度�
 ---
 
 ## 1.如何设置合理tags&categories
-
+```markdown
 **分类（categories）：**
 ├── 计算机基础
 ├── 数据结构与算法
@@ -29,7 +29,7 @@ summary: "使用静态网站生成器 Hugo 搭建一个快速、简洁、高度�
 ├── 调试技巧
 ├── Leetcode
 ├── Git
-
+```
 ## 2.使用技术栈
  
 | 技术      | 用途说明                          |
@@ -43,6 +43,7 @@ summary: "使用静态网站生成器 Hugo 搭建一个快速、简洁、高度�
 ## 3.实现步骤
 
 ### 3.1 项目目录结构说明
+```markdown
 Myblog/
 ├── hugo.yaml              ← 博客配置文件（主题、菜单、样式等）
 ├── content/               ← 存放你写的博客文章（.md 文件）
@@ -52,6 +53,7 @@ Myblog/
 ├── themes/                ← 博客主题目录（比如 PaperMod）
 ├── .github/workflows/     ← GitHub 自动部署配置目录
 │   └── deploy.yml         ← GitHub Actions 脚本，用来自动部署博客
+```
 
 ### 3.2 deploy.yml 中关键内容说明
 ```yaml
