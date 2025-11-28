@@ -1,7 +1,7 @@
 # hugo.yaml
 baseURL: "https://22d-caoyd.github.io/"
 languageCode: "zh-CN"
-title: "我的学习博客"
+title: "Myblog"
 theme: "PaperMod"
 
 # 启用 emoji
@@ -10,15 +10,19 @@ enableEmoji: true
 # 文章参数
 params:
   # 首页模式
+  defaultTheme: auto
+  disableThemeToggle: false
+
   homeInfoParams:
-    Title: "👋 欢迎来到我的博客"
-    Content: "记录每日学习，持续成长"
-  
+    Title: "👋 欢迎来到 22d 的博客"
+    Content: |
+      这里记录了我在 **科学传播、艺术思考，以及技术探索** 中的成长轨迹。  
+
   # 社交图标（可选）
   socialIcons:
     - name: github
       url: "https://github.com/22d-caoyd"
-  
+
   # 显示阅读时间
   ShowReadingTime: true
   # 显示分享按钮
@@ -50,3 +54,5 @@ outputs:
     - HTML
     - RSS
     - JSON
+
+  customCSS: ["css/custom.css"]

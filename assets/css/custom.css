@@ -1,0 +1,58 @@
+/* 统一字体 */
+body {
+  font-family: 'LXGW WenKai', 'Noto Serif SC', 'PingFang SC', 'Microsoft YaHei', serif;
+  line-height: 1.7;
+  font-size: 16px;
+}
+
+/* 美化目录标题 */
+.toc-title {
+  font-weight: bold;
+  color: #1f4e79;
+}
+
+/* 首页标题动画 */
+.home-info h1 {
+  animation: fadeIn 1s ease-in-out;
+}
+
+/* 卡片 hover 效果 */
+article:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+}
+
+/* 文章封面圆角 */
+.post-cover {
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+/* 自定义代码块 */
+pre {
+  background-color: #2d2d2d !important;
+  color: #eee;
+  border-radius: 8px;
+  padding: 16px;
+  overflow-x: auto;
+}
+
+/* 按钮样式 */
+button, .button {
+  background-color: #4a90e2;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 8px;
+  transition: 0.3s ease;
+}
+button:hover {
+  background-color: #357ab8;
+}
+
+/* 渐变动画 */
+@keyframes fadeIn {
+  0% { opacity: 0; transform: translateY(10px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
