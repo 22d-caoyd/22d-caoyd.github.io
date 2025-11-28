@@ -2,8 +2,8 @@
 title: "如何建立自己的个人博客"
 date: 2025-11-28
 draft: false
-tags: ["技术教程"]
-categories: ["今日所学"]
+tags: ["blog","tags","git"]
+categories: ["今日所学","技术教程"]
 summary: "使用静态网站生成器 Hugo 搭建一个快速、简洁、高度可定制的个人学习博客，并通过 GitHub Pages 实现自动化部署和托管。博客可用于记录学习笔记、技术文章及开发日志"
 ---
 
