@@ -1,10 +1,11 @@
 ---
-title: "leecode-class2.md"
+title: "leecode-class2"
 date: 2025-12-04
-tags: ["leecode","左神", "时间复杂度","归并排序”]
+tags: ["leecode","左神","时间复杂度","归并排序"]
 categories: ["今日所学","算法"]
 draft: false
 ---
+
 ### 认识O（NlogN）排序
 
 #### 二分法
