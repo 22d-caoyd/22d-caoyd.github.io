@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>网络协议 on Myblog</title>
+    <link>http://localhost:1313/tags/%E7%BD%91%E7%BB%9C%E5%8D%8F%E8%AE%AE/</link>
+    <description>Recent content in 网络协议 on Myblog</description>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Fri, 28 Nov 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/%E7%BD%91%E7%BB%9C%E5%8D%8F%E8%AE%AE/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ssh-diier-with https</title>
+      <link>http://localhost:1313/posts/ssh-differ-with-https/</link>
+      <pubDate>Fri, 28 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/ssh-differ-with-https/</guid>
+      <description>&lt;h3 id=&#34;1-安全性&#34;&gt;1. 安全性&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;SSH（Secure Shell） 是一种安全的加密协议，用于安全地连接远程服务器，通常用于 Git 操作（如 git push, git pull）时认证身份。SSH 使用密钥对（私钥和公钥）进行身份验证，每次提交时无需密码。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;优势：更安全，不需要每次输入用户名和密码，防止中间人攻击。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;HTTPS（Hypertext Transfer Protocol Secure） 是基于 HTTP 的加密协议，用于 网络通信，通常用于 Git 操作（如 git push, git pull）时传输数据。HTTPS 使用用户名和密码或 token 进行身份验证。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;优势：广泛支持，大多数情况下都可以使用，只要你有用户名和密码（或者 GitHub Token）即可。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;2-使用方式和配置&#34;&gt;2. 使用方式和配置&lt;/h3&gt;
+&lt;p&gt;SSH：&lt;/p&gt;
+&lt;p&gt;你需要在本地生成 SSH 密钥对（私钥和公钥），并将公钥添加到 GitHub 等远程仓库。&lt;/p&gt;
+&lt;p&gt;使用 SSH 时，不需要每次输入用户名和密码，SSH 密钥验证通过后可以直接进行操作。&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;生成 SSH 密钥对：
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ssh-keygen -t rsa -b &lt;span class=&#34;m&#34;&gt;4096&lt;/span&gt; -C &lt;span class=&#34;s2&#34;&gt;&amp;#34;你的GitHub邮箱&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;将公钥 id_rsa.pub 上传到 GitHub 设置中的 SSH 密钥部分。&lt;/p&gt;
+&lt;p&gt;HTTPS：&lt;/p&gt;
+&lt;p&gt;你直接使用 用户名和密码 或 GitHub Token 来进行身份验证。&lt;/p&gt;
+&lt;p&gt;在推送代码时，你需要输入用户名和密码，或者配置 GitHub Token 来代替密码，避免每次都输入密码。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

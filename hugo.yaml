@@ -31,6 +31,7 @@ params:
   ShowToc: true
   # 目录默认展开
   TocOpen: true
+  math: true
 
 # 菜单
 menu:
@@ -56,3 +57,11 @@ outputs:
     - JSON
 
   customCSS: ["css/custom.css"]
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true  # 允许 HTML 渲染
+  highlight:
+    noClasses: false
+

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>技术教程 on Myblog</title>
+    <link>http://localhost:1313/categories/%E6%8A%80%E6%9C%AF%E6%95%99%E7%A8%8B/</link>
+    <description>Recent content in 技术教程 on Myblog</description>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Fri, 28 Nov 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/%E6%8A%80%E6%9C%AF%E6%95%99%E7%A8%8B/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>如何建立自己的个人博客</title>
+      <link>http://localhost:1313/posts/blog-setup/</link>
+      <pubDate>Fri, 28 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/blog-setup/</guid>
+      <description>使用静态网站生成器 Hugo 搭建一个快速、简洁、高度可定制的个人学习博客，并通过 GitHub Pages 实现自动化部署和托管。博客可用于记录学习笔记、技术文章及开发日志</description>
+    </item>
+  </channel>
+</rss>
